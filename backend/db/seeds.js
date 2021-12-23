@@ -1,10 +1,10 @@
 const mongoose = require('./connections')
-const Store = require('../models/store')
-const storeSeeds = require('./storeSeeds.json')
+const Clothing = require('../models/clothing')
+const clothingSeeds = require('./clothingSeeds.json')
 
-Product.deleteMany({})
+Clothing.deleteMany({})
     .then(() => {
-        return Product.insertMany(storeSeeds)
+        return Clothing.insertMany(clothingSeeds)
     })
     .then(data => console.log(data))
     .catch(err => console.log(err))

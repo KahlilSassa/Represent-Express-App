@@ -3,7 +3,7 @@ const app = express()
 const PORT = 4444
 const methodOverride = require('method-override')
 const expressEjsLayout = require('express-ejs-layouts')
-const storeController = require('./controllers/store')
+const storeController = require('./controllers/clothing')
 
 app.use(express.static('public'))
 app.use(methodOverride('_method'));

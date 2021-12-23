@@ -1,6 +1,6 @@
 const mongoose = require('../db/connection')
 
-const storeSchema = new mongoose.Schema({
+const clothingSchema = new mongoose.Schema({
     price: Number,
     item: {type: String, required: true},
     color: {type: String, required: true},
@@ -8,6 +8,6 @@ const storeSchema = new mongoose.Schema({
     quantity: Number
 })
 
-const Store = mongoose.model('Store', storeSchema)
+const Clothing = mongoose.model('Clothing', clothingSchema)
 
-module.exports = Store
+module.exports = Clothing

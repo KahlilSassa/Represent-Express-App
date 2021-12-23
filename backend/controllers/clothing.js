@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const Store = require('../models/store')
+const Clothing = require('../models/clothing')
 
 // HOME ROUTE
 router.get('/', (req,res) => {
