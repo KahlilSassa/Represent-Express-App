@@ -3,21 +3,26 @@ const router = express.Router()
 const Clothing = require('../models/clothing')
 
 // HOME ROUTE
-router.get('/', (req,res) => {
-
+router.get('/', (req,res, next) => {
+   data = Clothing.find({})
+   .then(Clothing => res.json(Clothing))
+   .catch(next)
 })
 
 router.get('/new', (req,res) => {
     res.render('new')
 })
 
-router.get('/:id', (req,res) => {
-
+// Show route
+router.get('/:id', (req,res, next) => {
+    Clothing.findById(req.params.id)
+    .then((clothing) => res.json(clothing))
+    .catch(next)
 })
 
-// POST ROUTE
+// POST ROUTE --- create route
 router.post('/', (req,res) => {
-
+    
 })
 
 // DELETE ROUTE
