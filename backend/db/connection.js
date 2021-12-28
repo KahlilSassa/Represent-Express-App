@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const mongoURI = 'mongodb://localhost:27017/clothing'
+const mongoURI = 'mongodb://localhost:27017/shop'
 
 mongoose.connect(mongoURI, {
     useNewUrlParser: true,

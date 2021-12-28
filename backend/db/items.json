@@ -3,7 +3,8 @@
     "item": "Blank Sweater",
     "color": "All Black",
     "description": "All Black slightly oversized fit sweater in a heavy weight jersey cotton. Super soft, pre-shrunk and piece dyed for the ultimate jersey. Ribbed hem & cuffs. Featuring a tonal raised rubber Represent logo stamp.",
-    "quantity": 50
+    "quantity": 50,
+    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/1_5ba9d0a8-c478-4c4e-8316-0028fdfeacd7_720x.jpg?v=1637940405"
  },
 
  {
@@ -11,7 +12,8 @@
     "item": "Hooded Puffer Jacket",
     "color": "Onyx Black",
     "description": "Hooded puffer jacket filled with genuine Duck Down. A matte glossy black nylon outer, with a smooth glossy lining. Adjustable down filled hood, a double headed zip front closure and zip hand pockets finish the piece in matte black. Hidden zip pocket to the inside left chest.",
-    "quanitity": 20
+    "quanitity": 20,
+    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/1_5ba9d0a8-c478-4c4e-8316-0028fdfeacd7_720x.jpg?v=1637940405"
 },
 
 {
@@ -19,7 +21,8 @@
     "item": "Blank Shorts",
     "color": "Off Black",
     "description": "Relaxed fit shorts in our signature heavyweight loopback jersey. Elasticated waistband with a drawstring and zip pockets to the front. Featuring a tonal raised rubber Represent logo stamp.",
-    "quantity": 10
+    "quantity": 10,
+    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/1_5ba9d0a8-c478-4c4e-8316-0028fdfeacd7_720x.jpg?v=1637940405"
 },
 
 {
@@ -27,6 +30,7 @@
     "item": "Represent Owners Club Hoodie",
     "color": "Black",
     "description": "Jet Black slightly oversized fit hoodie in a heavy weight jersey cotton. Super soft, pre-shrunk and piece dyed for the ultimate jersey. Ribbed hem & cuffs. Owners Club print to the chest & back.",
-    "quantity": 15
+    "quantity": 15,
+    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/1_5ba9d0a8-c478-4c4e-8316-0028fdfeacd7_720x.jpg?v=1637940405"
     
 }]

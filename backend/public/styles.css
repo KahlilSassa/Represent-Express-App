@@ -1,12 +1,44 @@
 body {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    max-width: 45rem;
-    margin: auto;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 0.5rem;
+    margin: 0;
+    padding: 0;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-section {
+    padding: 1rem;
+}
+
+.nav-section a {
+    color: black;
+    margin-right: 1rem ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items img {
+    width: 100%;
+}
+
+.items a {
+    width: calc(25% - 1rem);
+    margin: .5rem;
+    text-decoration: none;
+}
+
+.items span {
+    color: black;
+    display: block;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
