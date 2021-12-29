@@ -11,6 +11,17 @@ const shopSchema = new mongoose.Schema({
 })
 
 const Shop = mongoose.model('Shop', shopSchema)
-Shop.insertMany(items)
+
+// Shop.deleteMany({})
+// .then(() => {
+//     return Shop.insertMany(items)
+// })
+// .then(data => console.log(data))
+// .catch(err => console.log(err))
+// .finally(()=>{
+//     process.exit()
+// })
+
+// Shop.insertMany(items)
 
 module.exports = Shop

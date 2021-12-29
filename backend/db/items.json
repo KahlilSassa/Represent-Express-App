@@ -4,16 +4,16 @@
     "color": "All Black",
     "description": "All Black slightly oversized fit sweater in a heavy weight jersey cotton. Super soft, pre-shrunk and piece dyed for the ultimate jersey. Ribbed hem & cuffs. Featuring a tonal raised rubber Represent logo stamp.",
     "quantity": 50,
-    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/1_5ba9d0a8-c478-4c4e-8316-0028fdfeacd7_720x.jpg?v=1637940405"
+    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/1_d896228e-6528-4c38-9bfb-929a8d6d1c4d_720x.jpg?v=1632354009"
  },
 
  {
-    "price": 299,
+    "price": 450,
     "item": "Hooded Puffer Jacket",
     "color": "Onyx Black",
     "description": "Hooded puffer jacket filled with genuine Duck Down. A matte glossy black nylon outer, with a smooth glossy lining. Adjustable down filled hood, a double headed zip front closure and zip hand pockets finish the piece in matte black. Hidden zip pocket to the inside left chest.",
     "quanitity": 20,
-    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/1_5ba9d0a8-c478-4c4e-8316-0028fdfeacd7_720x.jpg?v=1637940405"
+    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/6_76216695-a5a3-49ac-803a-38b56fb73fb9_720x.jpg?v=1632931975"
 },
 
 {
@@ -22,7 +22,7 @@
     "color": "Off Black",
     "description": "Relaxed fit shorts in our signature heavyweight loopback jersey. Elasticated waistband with a drawstring and zip pockets to the front. Featuring a tonal raised rubber Represent logo stamp.",
     "quantity": 10,
-    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/1_5ba9d0a8-c478-4c4e-8316-0028fdfeacd7_720x.jpg?v=1637940405"
+    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/3_9cfba425-3b17-4b00-9b70-6ea5be2892a1_900x.jpg?v=1635958839"
 },
 
 {
@@ -31,6 +31,39 @@
     "color": "Black",
     "description": "Jet Black slightly oversized fit hoodie in a heavy weight jersey cotton. Super soft, pre-shrunk and piece dyed for the ultimate jersey. Ribbed hem & cuffs. Owners Club print to the chest & back.",
     "quantity": 15,
-    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/1_5ba9d0a8-c478-4c4e-8316-0028fdfeacd7_720x.jpg?v=1637940405"
+    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/6_092ba4da-f203-4ff2-a73f-b25f62bed22b_720x.jpg?v=1632354544"
     
-}]
+},
+{
+    "price": 65,
+    "item": "Tote Bag",
+    "color": "Vintage White/Black",
+    "description": "A canvas tote bag featuring the Owners Club print to the front side.",
+    "quantity": 3,
+    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/2_06cd16df-7190-43a9-a26b-c80d90df9745_720x.jpg?v=1632354567"
+},
+{
+    "price": 550,
+    "item": "RPRSNT Varsaity Jacket",
+    "color": "Black",
+    "description": "A classic, boxy fit wool varsity jacket with faux matte leather sleeves. Wool ribbing trim to the collar, cuffs and hem with an onion quilted lining. Finished with RPRSNT branding to the chest and back and arms.",
+    "quantity": 10,
+    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/3_a6a85798-7367-495f-911e-ff003ed27292_720x.jpg?v=1637940389"
+},
+{
+    "price": 270,
+    "item": "Puffer Gilet",
+    "color": "Matte Black",
+    "description": "A slightly cropped puffer Gilet in Black nylon. Filled with genuine Duck Down. Zip front closure and zip pockets to the front.",
+    "quantity": 20,
+    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/FW21MODELECOMDROP1_0073_PHLEARNFrequencySeparation16bit_720x.jpg?v=1632355893"
+},
+{
+    "price": 310,
+    "item": "Overshirt",
+    "color": "Black Tartan",
+    "description": "Slightly oversized fit Black Tartan overshirt. Slightly scooped hem, with a hidden centre front button closure. Finished with grey horn buttons and the signature front chest pockets with the Represent metal bar.",
+    "quantity": 10,
+    "image": "https://cdn.shopify.com/s/files/1/0587/5816/8785/products/FW21MODELECOMDROP1_0062_FW21MODELECOM7630_720x.jpg?v=1632355433"
+}
+]
