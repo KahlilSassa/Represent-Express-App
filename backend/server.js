@@ -5,10 +5,17 @@ const methodOverride = require('method-override')
 const expressEjsLayout = require('express-ejs-layouts')
 const shopController = require('./controllers/shop')
 
+// Middleware
+const routeHit = (req, res, next) => {
+    console.log('A new route was just hit!');
+    next()
+}
+
+app.use(routeHit)
+app.use(express.urlencoded({extended:false}));
 app.use(express.static('public'))
 app.use(methodOverride('_method'));
 
-app.use(express.urlencoded({extended:false}));
 
 app.use(expressEjsLayout)
 app.set('view engine', 'ejs')
