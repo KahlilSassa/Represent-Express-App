@@ -6,7 +6,6 @@ const shopSchema = new mongoose.Schema({
     item: {type: String, required: true},
     color: {type: String, required: true},
     description: {type: String, required: true},
-    quantity: Number,
     image: String
 })
 
