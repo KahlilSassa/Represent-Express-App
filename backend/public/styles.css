@@ -86,3 +86,8 @@ nav {
     box-sizing: border-box;
     width: 33.333333;
 }
+
+.container {
+    display: flex;
+    
+}

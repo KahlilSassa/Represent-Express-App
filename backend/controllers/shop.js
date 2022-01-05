@@ -28,8 +28,11 @@ router.get('/:id', (req, res, next) => {
 
 
 //Create Route
-router.post('/shop', (req,res, next) => {
+router.post('/', (req,res, next) => {
+   console.log(req.body)
    Shop.create(req.body, (err, createdItems) => {
+      console.log(createdItems)
+      console.log(err)
       res.redirect('/shop')
       next()
    })
@@ -48,7 +51,7 @@ router.put('/:id', (req,res, next) => {
    Shop.findByIdAndUpdate(req.params.id, req.body, {new: true},
       (err, updatedModel) => {
       res.redirect('/')
-      next
+      next()
    })
 })
 

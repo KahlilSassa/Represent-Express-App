@@ -12,6 +12,7 @@ const routeHit = (req, res, next) => {
 }
 
 app.use(routeHit)
+app.use(express.json())
 app.use(express.urlencoded({extended:false}));
 app.use(express.static('public'))
 app.use(methodOverride('_method'));
