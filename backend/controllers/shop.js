@@ -12,9 +12,12 @@ router.get('/', (req, res, next) => {
    })
 })
 
+router.get('/about', (req,res) => {
+   res.render('about')
+})
+
 // New Route
 router.get('/new', (req,res, next) => {
-   console.log("hi");
    res.render('new')
 })
 

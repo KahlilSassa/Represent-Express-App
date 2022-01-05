@@ -7,24 +7,52 @@
 </div>
 
 <div class="data">
-    <span>
-       <h4><%= items.item %></h4>
-        <%= items.price %>
-        <%= items.color %>
-        <%= items.description %>
-        <%= items.quantity %>
+    <div class="text">
+        <span>
+            <h4><%= items.item %></h4>
+                <%= items.price %>
+                <%= items.color %>
+                <%= items.description %>
+                <%= items.quantity %>
+        </span> 
+    </div>    
 
-        <div class="delete-button"></div>
-     <form action='/shop/<%= items.id %>?_method=DELETE' method="POST">
-        <input type="submit" value="DELETE"/>
-     </form>
-    </div>
+        <div class="button-one">
+            <button type="button">XS</button>
+        </div>    
+        <div class="button-two">
+            <button type="button">S</button>    
+        </div>
+        <div class="button-three">
+            <button type="button">M</button>
+        </div>
+        <div class="button-four">
+            <button type="button">L</button>
+        </div>    
+        <div class="button-five">
+            <button type="button">XL</button>
+        </div>
+        <div class="button-six">
+            <button type="button">XXL</button>
+        </div>
 
-   <div class="EDIT-button"></div>
-     <form action='/SHOP<%= items.id %>/edit'> 
-        <input type="submit" value="EDIT"/>
-     </form>
-    </div>
-    </span> 
+
+        <div class="button-seven">
+            <form action='/shop/<%= items.id %>?_method=DELETE' method="POST">
+                <input type="submit" value="DELETE"/>
+            </form>
+        </div>    
+    
+        <div class="button-eight">
+            <form action='/SHOP<%= items.id %>/edit'> 
+                <input type="submit" value="EDIT"/>
+            </form>
+        </div>
+
+    </div>    
+    
+
+</div>
+
 </div>
 
