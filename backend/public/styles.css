@@ -32,6 +32,7 @@ nav {
 }
 .about-img{
     padding: 1rem;
+    display: inline-block;
 }
 .nav-section a {
     color: black;
