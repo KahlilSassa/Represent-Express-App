@@ -15,28 +15,35 @@
                 <%= items.description %>
                 <%= items.quantity %>
         </span> 
-    </div>    
+    </div>
+        <div class="row"> 
 
-        <div class="button-one">
-            <button type="button">XS</button>
-        </div>    
-        <div class="button-two">
-            <button type="button">S</button>    
-        </div>
-        <div class="button-three">
-            <button type="button">M</button>
-        </div>
-        <div class="button-four">
-            <button type="button">L</button>
-        </div>    
-        <div class="button-five">
-            <button type="button">XL</button>
-        </div>
-        <div class="button-six">
-            <button type="button">XXL</button>
-        </div>
+            <div class="button-one">
+                <h1>XS</h1>
+            </div>    
 
+            <div class="button-two">
+                <h1>S</h1>    
+            </div>
 
+            <div class="button-three">
+                <h1>M</h1>
+            </div>
+
+            <div class="button-four">   
+                <h1>L</h1>
+            </div>    
+
+            <div class="button-five">
+                <h1>XL</h1>
+            </div>
+
+            <div class="button-six">
+                <h1>XXL</h1>
+            </div>
+        </div>     
+
+<div class="button">
         <div class="button-seven">
             <form action='/shop/<%= items.id %>?_method=DELETE' method="POST">
                 <input type="submit" value="DELETE"/>
@@ -48,6 +55,7 @@
                 <input type="submit" value="EDIT"/>
             </form>
         </div>
+</div>    
 
     </div>    
     
