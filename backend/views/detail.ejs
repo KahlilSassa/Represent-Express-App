@@ -9,58 +9,40 @@
 <div class="data">
     <div class="text">
         <span>
-            <h4><%= items.item %></h4>
-                <%= items.price %>
-                <%= items.color %>
+            <h5><%= items.item %> - <%= items.color %> </h5>
+                <span class="paragraph">
+                    <span>$</span>
+                <%= items.price %> USD: 
+
                 <%= items.description %>
+                </span>
                 <%= items.quantity %>
         </span> 
     </div>
-        <div class="row"> 
+    <div class="size-buttons">  
+        <button type="button" class="btn btn-outline-dark">XS</button>
+        <button type="button" class="btn btn-outline-dark">S</button>
+        <button type="button" class="btn btn-outline-dark">M</button>
+        <button type="button" class="btn btn-outline-dark">L</button>
+        <button type="button" class="btn btn-outline-dark">XL</button>
+        <button type="button" class="btn btn-outline-dark">XXL</button>
+    </div>  
 
-            <div class="button-one">
-                <h1>XS</h1>
-            </div>    
 
-            <div class="button-two">
-                <h1>S</h1>    
-            </div>
-
-            <div class="button-three">
-                <h1>M</h1>
-            </div>
-
-            <div class="button-four">   
-                <h1>L</h1>
-            </div>    
-
-            <div class="button-five">
-                <h1>XL</h1>
-            </div>
-
-            <div class="button-six">
-                <h1>XXL</h1>
-            </div>
-        </div>     
 
 <div class="button">
         <div class="button-seven">
             <form action='/shop/<%= items.id %>?_method=DELETE' method="POST">
-                <input type="submit" value="DELETE"/>
+                <input type="submit" class="btn btn-outline-dark" type="button" value="DELETE"/>
             </form>
         </div>    
     
         <div class="button-eight">
-            <form action='/SHOP<%= items.id %>/edit'> 
-                <input type="submit" value="EDIT"/>
+            <form action="/shop/<%= items.id %>?_method=PUT" method="POST"> 
+                <input type="submit" class="btn btn-outline-dark" type="button" value="EDIT"/>
             </form>
         </div>
 </div>    
 
-    </div>    
-    
 
-</div>
-
-</div>
 
