@@ -1,5 +1,6 @@
 const { Router, application } = require('express')
 const express = require('express')
+const { $where } = require('../models/shop')
 const router = express.Router()
 const Shop = require('../models/shop')
 
@@ -64,5 +65,6 @@ router.delete('/:id', (req,res) => {
       res.redirect('/')
    })
 })
+
 
 module.exports = router
