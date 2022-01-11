@@ -51,7 +51,7 @@ router.get('/:id/edit', (req, res, next) => {
    })
 })
 
-router.put('/:id', (req,res, next) => {
+router.put('/:id/', (req,res, next) => {
    Shop.findByIdAndUpdate(req.params.id, req.body, {new: true},
       (err, updatedModel) => {
       res.redirect('/shop')

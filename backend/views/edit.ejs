@@ -2,7 +2,7 @@
 
 <span>Edit Item</span>
 
-<form action="/shop<%= item.id %>?_method=PUT" method="POST">
+<form action="/shop/<%=item.id%>?_method=PUT" method="POST">
 
     <label for="name">Name</label>
     <input type="text" name="name" id="name" value="<%= item.item %>">
