@@ -522,6 +522,18 @@ margin-right: 100rem
     font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
-.navbar{
-text-align: center;
+.navbar {
+   text-align: center;
 }
+
+.album-pic-exit {
+    z-index: 5;
+    position: absolute;
+
+}
+
+#wrapper {
+    display: flex;
+    position: relative;
+}
+  

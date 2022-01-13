@@ -6,7 +6,8 @@ const shopSchema = new mongoose.Schema({
     item: {type: String, required: true},
     color: {type: String, required: true},
     description: {type: String, required: true},
-    image: String
+    image: String,
+    image2: String
 })
 
 const Shop = mongoose.model('Shop', shopSchema)

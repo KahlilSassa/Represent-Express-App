@@ -1,63 +1,72 @@
+<div>
+   <nav class="navbar navbar-light bg-light">
+        <span class="navbar-text">
+        </span>
+    </nav>
+
+    <div class="container">
+
+    <div class="details">
+        <span>
+            <img src="<%= items.image %>" alt="clothing"/>
+        </span>
+    </div>
+
+    <div class="data">
+        <div class="text">
+            <span>
+                <h5><%= items.item %> - <%= items.color %> </h5>
+                    <span class="paragraph">
+                        <span>$</span>
+                    <%= items.price %> USD: 
+
+                    <%= items.description %>
+                    </span>
+                    <%= items.quantity %>
+            </span> 
+        </div>
+        <div class="size-buttons">  
+            <button type="button" class="btn btn-outline-dark">XS</button>
+            <button type="button" class="btn btn-outline-dark">S</button>
+            <button type="button" class="btn btn-outline-dark">M</button>
+            <button type="button" class="btn btn-outline-dark">L</button>
+            <button type="button" class="btn btn-outline-dark">XL</button>
+            <button type="button" class="btn btn-outline-dark">XXL</button>
+        </div>  
+
+
+
+        <div class="button">
+                <div class="button-seven">
+                    <form action='/shop/<%= items.id %>?_method=DELETE' method="POST">
+                        <input type="submit" class="btn btn-outline-dark" type="button" value="DELETE"/>
+                    </form>
+                </div>    
+            
+                <div class="button-eight">
+                    <a href="/shop/<%= items.id %>/edit" class="btn btn-outline-dark" type="button">EDIT</a> 
+                </div>
+        </div>    
+
+
+
+        <div class="_1vi93">
+            <div data-test-id="deliveryAndReturns__freeDelivery" class="_2U_UZ _1g5cd" aria-live="polite">
+                <span class="_33MG_">
+                    <span class="ds110 product-delivery-van"></span>
+                </span>Free Delivery.
+            </div>
+            <div data-test-id="deliveryAndReturns__freeReturns" class="_2U_UZ">
+                <span class="_33MG_">
+                    <span class="ds110 product-returns-box"></span>
+                </span>Free Returns.
+            </div>
+        </div>
+
+    </div>
+</div>
+
 <nav class="navbar navbar-light bg-light">
     <span class="navbar-text">
     </span>
 </nav>
-
-<div class="container">
-
-<div class="details">
-    <span>
-        <img src="<%= items.image %>" alt="clothing"/>
-    </span>
-</div>
-
-<div class="data">
-    <div class="text">
-        <span>
-            <h5><%= items.item %> - <%= items.color %> </h5>
-                <span class="paragraph">
-                    <span>$</span>
-                <%= items.price %> USD: 
-
-                <%= items.description %>
-                </span>
-                <%= items.quantity %>
-        </span> 
-    </div>
-    <div class="size-buttons">  
-        <button type="button" class="btn btn-outline-dark">XS</button>
-        <button type="button" class="btn btn-outline-dark">S</button>
-        <button type="button" class="btn btn-outline-dark">M</button>
-        <button type="button" class="btn btn-outline-dark">L</button>
-        <button type="button" class="btn btn-outline-dark">XL</button>
-        <button type="button" class="btn btn-outline-dark">XXL</button>
-    </div>  
-
-
-
-<div class="button">
-        <div class="button-seven">
-            <form action='/shop/<%= items.id %>?_method=DELETE' method="POST">
-                <input type="submit" class="btn btn-outline-dark" type="button" value="DELETE"/>
-            </form>
-        </div>    
-    
-        <div class="button-eight">
-            <a href="/shop/<%= items.id %>/edit" class="btn btn-outline-dark" type="button">EDIT</a> 
-        </div>
-</div>    
-
-
-
-<div class="_1vi93">
-    <div data-test-id="deliveryAndReturns__freeDelivery" class="_2U_UZ _1g5cd" aria-live="polite">
-        <span class="_33MG_">
-            <span class="ds110 product-delivery-van"></span>
-        </span>Free Delivery.
-    </div>
-    <div data-test-id="deliveryAndReturns__freeReturns" class="_2U_UZ">
-        <span class="_33MG_">
-            <span class="ds110 product-returns-box">
-            </span>
-        </span>Free Returns.
-    </div>
