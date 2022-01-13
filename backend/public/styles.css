@@ -527,7 +527,7 @@ margin-right: 100rem
 }
 
 .album-pic-exit {
-    z-index: 5;
+    z-index: 3;
     position: absolute;
 
 }
