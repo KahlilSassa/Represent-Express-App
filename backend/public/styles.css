@@ -524,6 +524,8 @@ margin-right: 100rem
 
 .navbar {
    text-align: center;
+   padding: 1rem;
+   
 }
 
 .album-pic-exit {
@@ -547,4 +549,13 @@ margin-right: 100rem
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
+}
+
+.icons{
+margin-left: 48rem;
+display:inline-block;
+}
+
+.text{
+    padding: 3rem;
 }
