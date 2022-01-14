@@ -6,21 +6,20 @@ const shopSchema = new mongoose.Schema({
     item: {type: String, required: true},
     color: {type: String, required: true},
     description: {type: String, required: true},
-    image: String,
-    image2: String
+    images: { type: Array, required: true }
 })
 
 const Shop = mongoose.model('Shop', shopSchema)
 
 // Shop.deleteMany({})
 // .then(() => {
-//     return Shop.insertMany(items)
-// })
-// .then(data => console.log(data))
-// .catch(err => console.log(err))
+//      return Shop.insertMany(items)
+//  })
+//  .then(data => console.log(data))
+//  .catch(err => console.log(err))
 // .finally(()=>{
-//     process.exit()
-// })
+//      process.exit()
+//  })
 
 // Shop.insertMany(items)
 

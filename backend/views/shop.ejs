@@ -11,8 +11,8 @@
   <% items.forEach(item =>{ %>
   <a href="shop/<%= item.id %>">
     <div id="wrapper">
-      <img class="album-pic" src="<%= item.image %>" alt="clothing" />
-      <img class="album-pic-exit" src="<%= item.image2 %>" />
+      <img class="album-pic" src="<%= item.images[0] %>" alt="clothing" />
+      <img class="album-pic-exit" src="<%= item.images[1] %>" />
     </div>
 
     <span><strong><%= item.item %></strong></span>
