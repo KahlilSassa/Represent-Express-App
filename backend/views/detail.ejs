@@ -1,78 +1,42 @@
-<div>
-    <div class="icons">
-        <a href="https://www.facebook.com/Representclo" class="fa fa-facebook"></a>
-        <a href="https://twitter.com/representclo" class="fa fa-twitter"></a>      
-        <a href="https://www.instagram.com/representclo/" class="fa fa-instagram"></a>
-    </div> 
+<div class="detail">
+  <div class="detail-images">
+    <div class="detail-image">
+      <img src="<%= items.image2 %>" alt="clothing" />
+    </div>
+    <div class="detail-image">
+      <img src="<%= items.image %>" alt="clothing" />
+    </div>
+    <div class="detail-image">
+      <img src="<%= items.image %>" alt="clothing" />
+    </div>
+    <div class="detail-image">
+      <img src="<%= items.image2 %>" alt="clothing" />
+    </div>
+  </div>
 
-
-    <nav class="navbar sticky-top navbar-light bg-light"></nav>
-
-
-
-
-
-    <div class="container">
-
-    <div class="details">
-        <span>
-            <img src="<%= items.image %>" alt="clothing"/>
-        </span>
+  <div class="data">
+    <div class="breadcrumb">
+      <a href="/">HOME</a> > <a href="/shop">SHOP</a> > <%= items.item %> - <%=
+      items.color %>
+    </div>
+    <div class="text">
+      <h5><%= items.item %> - <%= items.color %></h5>
+      <span>$<%= items.price %> USD</span>
+      <p class="paragraph"><%= items.description %></p>
+      <%= items.quantity %>
+    </div>
+    <div class="size-buttons">
+      <button type="button">XS</button>
+      <button type="button">S</button>
+      <button type="button">M</button>
+      <button type="button">L</button>
+      <button type="button">XL</button>
+      <button type="button">XXL</button>
     </div>
 
-    <div class="data">
-        <div class="text">
-            <span>
-                <h5><%= items.item %> - <%= items.color %> </h5>
-                    <span class="paragraph">
-                        <span>$</span>
-                    <%= items.price %> USD: 
-
-                    <%= items.description %>
-                    </span>
-                    <%= items.quantity %>
-            </span> 
-        </div>
-        <div class="size-buttons">  
-            <button type="button" class="btn btn-outline-dark">XS</button>
-            <button type="button" class="btn btn-outline-dark">S</button>
-            <button type="button" class="btn btn-outline-dark">M</button>
-            <button type="button" class="btn btn-outline-dark">L</button>
-            <button type="button" class="btn btn-outline-dark">XL</button>
-            <button type="button" class="btn btn-outline-dark">XXL</button>
-        </div>  
-
-
-
-        <div class="button">
-                <div class="button-seven">
-                    <form action='/shop/<%= items.id %>?_method=DELETE' method="POST">
-                        <input type="submit" class="btn btn-outline-dark" type="button" value="DELETE"/>
-                    </form>
-                </div>    
-            
-                <div class="button-eight">
-                    <a href="/shop/<%= items.id %>/edit" class="btn btn-outline-dark" type="button">EDIT</a> 
-                </div>
-        </div>    
-
-        <div class="_1vi93">
-            <div data-test-id="deliveryAndReturns__freeDelivery" class="_2U_UZ _1g5cd" aria-live="polite">
-                <span class="_33MG_">
-                    <span class="ds110 product-delivery-van"></span>
-                </span>Free Delivery.
-            </div>
-            <div data-test-id="deliveryAndReturns__freeReturns" class="_2U_UZ">
-                <span class="_33MG_">
-                    <span class="ds110 product-returns-box"></span>
-                </span>Free Returns.
-            </div>
-        </div>
-
-    </div>
+    <form action="/shop/<%= items.id %>?_method=DELETE" method="POST">
+      <input type="submit" class="add" value="DELETE" />
+    </form>
+    <a href="/shop/<%= items.id %>/edit" class="add">EDIT</a>
+  </div>
 </div>
-
-<nav class="navbar sticky-top navbar-light bg-light"></nav>
-
-
- 
