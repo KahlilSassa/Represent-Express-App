@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
-const PORT = 4444
+// const PORT = 4444
+app.set('port', process.env.PORT || 4444)
 const methodOverride = require('method-override')
 const expressEjsLayout = require('express-ejs-layouts')
 const shopController = require('./controllers/shop')
@@ -24,4 +25,4 @@ app.set('view engine', 'ejs')
 app.get('/', (req, res) => res.render('index'))
 app.use('/shop', shopController)
 
-app.listen(PORT, ()=> console.log (`Listening on port ${PORT}`))
+app.listen(app.get('port'), ()=> console.log (`Listening on port ${app.get('port')}`))
