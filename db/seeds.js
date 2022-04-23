@@ -3,14 +3,14 @@ const Shop = require('../models/shop')
 const items = require('../db/items.json')
 
 
-// Shop.deleteMany({})
-// .then(() => {
-//      return Shop.insertMany(items)
-//  })
-//  .then(data => console.log(data))
-//  .catch(err => console.log(err))
-// .finally(()=>{
-//      process.exit()
-//  })
+Shop.deleteMany({})
+.then(() => {
+     return Shop.insertMany(items)
+ })
+ .then(data => console.log(data))
+ .catch(err => console.log(err))
+.finally(()=>{
+     process.exit()
+ })
 
-Shop.insertMany(items)
+// Shop.insertMany(items)
