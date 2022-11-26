@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 // const PORT = 4444
-app.set('port', process.env.PORT || 4444 )
+app.set('port', process.env.PORT || 3333 )
 const methodOverride = require('method-override')
 const expressEjsLayout = require('express-ejs-layouts')
 const shopController = require('./controllers/shop')
